@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 7777,
+  "username": "postgres",
+  "password": "pass@123",
+  "database": "contact_list",
+  "entities": [
+    "./dist/**/*.entity.js"
+  ],
+  "synchronize": false
+}
